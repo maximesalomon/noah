@@ -3,6 +3,10 @@ class Ark {
     this.id = id;
     this.name = name;
   }
+
+  float() {
+    return "I've been built by Noah, of course I float!"
+  }
 }
 
 const noahs_ark = new Ark();
