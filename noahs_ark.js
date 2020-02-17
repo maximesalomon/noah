@@ -5,13 +5,13 @@ class Ark {
   }
 
   float() {
-    return "I've been built by Noah, of course I float!"
+    return "I've been built by Noah, of course I float!";
   }
 }
 
 const noahs_ark = new Ark();
 
-noahs_ark.id = 1
-noahs_ark.name = "Noah's Ark"
+noahs_ark.id = 1;
+noahs_ark.name = "Noah's Ark";
 
 console.log(noahs_ark.id + " " + noahs_ark.name);
